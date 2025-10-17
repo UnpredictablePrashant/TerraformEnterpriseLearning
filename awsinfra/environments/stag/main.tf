@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "example" {
     environment   = var.env
     project       = var.project
     created_on    = timestamp()
-    project_owner = "prashantsavior@gmail.com"
+    project_owner = "prashant.dey@gmail.com"
   }
 }
 
