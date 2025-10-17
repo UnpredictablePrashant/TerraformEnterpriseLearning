@@ -13,6 +13,6 @@ module "ec2" {
   source = "../../modules/ec2"
 
   instance_name = "${var.project}-${var.env}"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   ami_id        = "ami-03f861799b8c87497"
 }
