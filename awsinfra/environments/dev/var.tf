@@ -15,5 +15,5 @@ variable "env" {
 }
 
 variable "project" {
-  default = "yt-terraform-intro"
+  default = "prashanttfe-intro"
 }
