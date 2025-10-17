@@ -14,5 +14,5 @@ module "ec2" {
 
   instance_name = "${var.project}-${var.env}"
   instance_type = "t3.micro"
-  ami_id        = "ami-05b10e08d247fb927"
+  ami_id        = "ami-03f861799b8c87497"
 }
