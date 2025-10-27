@@ -15,5 +15,5 @@ variable "env" {
 }
 
 variable "project" {
-  default = "prashanttfe-intro"
+  default = "prashanttfe-intro-usmck"
 }
